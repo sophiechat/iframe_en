@@ -78,8 +78,7 @@ To install you must follow the steps below:
 			obrigado.show();
 			obrigado.delay(3000).fadeOut();
 		});
-	});
-</script>
+	});</script>
 
 
 **2. Set the bot's URL:**
