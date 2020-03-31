@@ -43,7 +43,7 @@ To install you must follow the steps below:
     <script>
 	$(document).ready(function () {
 		//Chat URL
-		var _chatterURL = 'https://assistant.sophie.chat/<BOTNAME>/ChatterWeb/index?login=visitante';
+		var _chatterURL = 'https://sophie-show.stefanini.com/Assistant/<NOMEDOSEUBOT>/Login/GetLogin?login=Visitante';
 
 		//Open Modal
 		$(".fa-comment").click(function () {
