@@ -1,6 +1,6 @@
 ﻿**IFRAME**
 
-In this guide we will learn how to use your bot within a website or web environment. To do this, we must have a chatbot created with your account and then insert it into an HTML element called ** IFRAME **.
+In this guide we will learn how to use Sophie within a website or web environment. To do this, we must insert it into an HTML element called **IFRAME**.
 
 **Remember that for this implementation it is necessary a basic knowledge of HTML.**
 
@@ -9,8 +9,7 @@ In this guide we will learn how to use your bot within a website or web environm
 The following files font-awesome.css, custom.css and jquery are essential.
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://sophie.chat/iframe/custom.css">
-
+    <link rel="stylesheet" href="https://sophie-us.stefanini.com/Assistant38NoAuth/Content/css/custom.css">
 
 You can copy and edit these files according to the structure of your website. Remember that the dependency of the Javascript library JQUERY versions 1.11 onwards is essential.
 
@@ -20,7 +19,6 @@ You can copy and edit these files according to the structure of your website. Re
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js" integrity="sha256-1OxYPHYEAB+HIz0f4AdsvZCfFaX4xrTD9d2BtGLXnTI=" crossorigin="anonymous"></script>
 
 ### Installation:
-
 
 ** IFRAME ** can be considered a small window to show Sophie's chat in web environments. It can be used in a private user area or even your public website.
 
@@ -72,7 +70,7 @@ And the JS code must be placed after all the scripts on the same page:
 	   <script>
 	     $(document).ready(function () {
 		    //Chat URL
-		    var _chatterURL = 'https://assistant.sophie.chat/<BOTNAME>/ChatterWeb/index?login=visitante';
+		    var _chatterURL = 'https://sophie-us.stefanini.com/Assistant38NoAuth/public-covid19/';
 
 		    //Open Modal
 		    $(".fa-comment").click(function () {
@@ -115,7 +113,7 @@ And the JS code must be placed after all the scripts on the same page:
 
 Then change BOTNAME value for the name of the created bot:
 
-     var _chatterURL = 'https://assistant.sophie.chat/ <BOTNAME> / ChatterWeb / index? login = visitor';
+     var _chatterURL = 'https://assistant.sophie.chat/ <BOTNAME> / ChatterWeb / index? login = AASHUASHASHJSAU#';
 Save changes to that HTML file and reload the page.
 
 ** READY **, if you followed the steps correctly you will be able to see a similar screen as in the image below:
