@@ -1,6 +1,6 @@
   $(document).ready( function() {
 
-             var _chatterURL = 'https://assistant.sophie.chat/NOMEDOSEUBOT/ChatterWeb/index?login=visitante';
+             var _chatterURL = 'http://sophie-us.stefanini.com/AssistantPublic/public-covid19/ChatterWeb/index?login=YOURKEY';
 
             //Open
             $(".fa-comment").click(function () {
